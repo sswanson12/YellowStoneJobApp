@@ -1,0 +1,27 @@
+//Variable overrides before importing Bootstrap
+
+$primary : #293d5f;
+$secondary : #d3cdb6;
+$font-family-sans-serif: "Open Sans", sans-serif, Arial;
+
+//Import Bootstrap
+
+@import 'bootstrapScss/bootstrap';
+
+//Add any custom styling
+
+#background{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: $secondary;
+}
+
+#mainContainer{
+  min-height: 90vh;
+}
+
+#footer{
+  height: 10vh;
+  background-color: $primary;
+  display: block;
+}
